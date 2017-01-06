@@ -4,7 +4,7 @@ menu:
   Archives: /archives
 rss: /atom.xml
 sitemap: /sitemap.xml
-github: https://github.com/xiangxianzui
+ga: /ga.html
 
 # Content
 excerpt_link: Read More
@@ -30,7 +30,7 @@ archive_type: 'monthly'
 show_count: true
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-89925013-1
 favicon: /favicon.png
 twitter:
 google_plus:

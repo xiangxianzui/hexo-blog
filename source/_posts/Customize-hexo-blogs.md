@@ -75,7 +75,7 @@ The default theme (landscape) of Hexo already supports [Disqus](https://disqus.c
 disqus_shortname: [your-disqus-shortname]
 ```
 
-## RSS plugin
+## RSS & Sitemap plugin
 
 Use the official tool *hexo-generator-feed* to generate RSS feed. Firstly intall it:
 
@@ -105,6 +105,13 @@ feed:
    entire post in the feed.
 
 A *atom.xml* file will be generated automatically when you run `hexo generate`.
+
+To generate sitemap, use the official [hexo-generator-sitemap](https://github.com/hexojs/hexo-generator-sitemap) plugin. 
+
+``` bash
+A sitemap is a file where you can list the web pages of your site to tell Google and other search engines about the organization of your site content. Search engine web crawlers like Googlebot read this file to more intelligently crawl your site.
+```
+--From Google
 
 ## Customize default theme
 
