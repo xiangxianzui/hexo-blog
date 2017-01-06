@@ -3,6 +3,7 @@ menu:
   Home: /
   Archives: /archives
 rss: /atom.xml
+sitemap: /sitemap.xml
 github: https://github.com/xiangxianzui
 
 # Content

@@ -134,4 +134,17 @@
 
     $container.removeClass('mobile-nav-on');
   });
+
+  $(window).on('scroll', function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 500;             // set to whatever you want it to be
+
+    if(y_scroll_pos > scroll_pos_test) {
+      //do stuff
+      $('#right-bottom').show();
+    }
+    else{
+      $('#right-bottom').hide();
+    }
+});
 })(jQuery);
