@@ -155,10 +155,29 @@ In addition, you can change the banner of the page. The *banner.jpg* is in `/the
 
 ### Show category count
 
-Again, open the theme's `_config.yml`, set `show_count` to `true`.
+Again, open the theme's `_config..
+> ml`, set `show_count` to `true`.
 
 Then, it will be looking like this:
 
 ![show category count](hexo-4.png)
+
+## Google Analytics
+
+Google Analytics tell the site owner about how many people have visited the website, how long they averagely stay and what kind of people visit (male or female? Asian or American?). It is a brilliant tool for site owners to grasp the whole picture.
+
+The default theme, Landscape, is already supporting Google Analytics. If you are using Landscape or another theme which supports Google Analytics,  you can simply add your Google Analytics tracking ID (get tracking ID [here](https://support.google.com/analytics/answer/1008080?hl=en)) to the theme's `_config.yml` like this:
+
+``` bash
+google_analytics: [your-tracking-id]
+```
+
+If your theme does not support Google Analytics, check [this post](http://www.codeblocq.com/2015/12/Add-Google-Analytics-to-your-hexo-blog/).
+
+Until now, you have enabled Google Analytics in your site, but the question is you can't see it. To display the analytics from Google, you need to use Embed API. This [official guide](https://developers.google.com/analytics/devguides/reporting/embed/v1/getting-started) is very helpful. Go through the guide and you'll make it!
+
+Mine is like this:
+
+![diplay-google-analytics](hexo-5.png)
 
 > Written with [StackEdit](https://stackedit.io/).
