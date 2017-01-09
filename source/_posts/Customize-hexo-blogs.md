@@ -155,8 +155,7 @@ In addition, you can change the banner of the page. The *banner.jpg* is in `/the
 
 ### Show category count
 
-Again, open the theme's `_config..
-> ml`, set `show_count` to `true`.
+Again, open the theme's `_config.yml`, set `show_count` to `true`.
 
 Then, it will be looking like this:
 
