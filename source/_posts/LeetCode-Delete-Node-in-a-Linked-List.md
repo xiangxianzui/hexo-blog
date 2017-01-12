@@ -5,15 +5,13 @@ tags: [algorithm, Linked List]
 categories: [LeetCode]
 ---
 
-## LeetCode: Delete Node in a Linked List
-
-### Problem
+## Problem
 
 Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
 
 Supposed the linked list is `1 -> 2 -> 3 -> 4` and you are given the third node with value `3`, the linked list should become `1 -> 2 -> 4` after calling your function.
 
-### Solution
+## Solution
 
 The solution is a little tricky. Normally, when we delete a node from a linked list, we should know the previous node of the one we want to delete. However, at this time, we only have access to the node to be deleted. So, we have to "**sacrifice**" the next node! Here is the java code:
 

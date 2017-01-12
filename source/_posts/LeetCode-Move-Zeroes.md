@@ -5,9 +5,7 @@ tags: [algorithm, Array]
 categories: [LeetCode]
 ---
 
-## LeetCode: Move Zeroes
-
-### Problem
+## Problem
 
 Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
@@ -17,7 +15,7 @@ For example, given `nums = [0, 1, 0, 3, 12]`, after calling your function, `nums
 You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 
-### Solution 1 -- 59ms
+## Solution 1 -- 59ms
 
 Go through the array. If `ith` element is 0, then move all elements within [i+1,nums,length-1] one place ahead, and set the last element of the array to 0. To prevent endless loop when `nums=[0,0,...,0]`, set a variable `reapeatCount`.
 
@@ -39,7 +37,7 @@ public void moveZeroes(int[] nums) {
 }
 ```
 
-### Solution 2 -- 19ms
+## Solution 2 -- 19ms
 
 Go through the array. If `ith` element is 0, then find the first non-zero element within range [i+1,nums.length-1] and swap it with current element; if there is no such non-zero element, it means all non-zero elements are before zeroes -- done! If current element is non-zero, just go on to the next.
 
