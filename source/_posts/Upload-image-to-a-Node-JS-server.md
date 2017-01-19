@@ -5,11 +5,57 @@ tags: [Node.JS]
 categories: [Guides]
 ---
 
-Recently, I came up with a problem that I need to upload images to a Node server and display the image instantly. 
+Recently, I came up with a problem that I need to upload images to a Node server and display the image instantly. I write this post to keep a record of what I have done.
 
-Generally, firstly I wrap the uploading image as a [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData). Then I use jquery `.ajax()` method to send `POST` request to the server. At server, [formidable](https://github.com/felixge/node-formidable) middleware is used to handle the uploading file. 
+Generally, firstly I wrap the uploading image as a [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData). 
 
-I write this post to keep a record of what I have done.
+``` bash
+#'upload[]' is the name attr of #upload-input
+#append the selected file to formData obj
+formData.append('upload[]', file, file.name);
+```
+
+Then I use jquery `.ajax()` method to send `POST` request to the server. 
+
+``` bash
+#processData:false means to stop jquery from converting the formData object to string
+#contentType:false means to tell jquery not to add a Content-Type header
+$.ajax({
+	url: '/upload',
+	type: 'POST',
+	data: formData,
+	processData: false,
+    contentType: false,
+	success: function(data){
+		#do something when success
+		}
+	}
+});
+```
+
+At server, [formidable](https://github.com/felixge/node-formidable) middleware is used to handle the uploading file. 
+
+``` bash
+app.post('/upload', function(req, res){
+  #create an incoming form object
+  var form = new formidable.IncomingForm();
+  #specify that we don't want user to upload multiple files at the same time; set true to allow.
+  form.multiples = false;
+  #store uploads in /uploads directory
+  form.uploadDir = path.join(process.cwd(), '/uploads');
+  #log any occured error
+  form.on('error', function(err){
+     console.log('File Uploading Error: '+err);
+  });
+  #parse the incoming request containing form data
+  form.parse(req, function(err, fields, files){
+	  var file = files['upload[]'];
+      #rename the uploaded file as its origin name
+      fs.rename(file.path, path.join(form.uploadDir, file.name));
+      res.send('success');
+  });
+});
+```
 
 **Note: A working demo is available in [github](https://github.com/xiangxianzui/node-image-previewer-uploader).**
 
