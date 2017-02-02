@@ -26,6 +26,8 @@ In this page, I want to record the projects I have done.
  - [Voting App](https://rocky-reaches-39900.herokuapp.com/)
  - [Stock Market Viewer](http://peaceful-tor-73822.herokuapp.com/stock)
  - [Night Life Coordinator](http://peaceful-tor-73822.herokuapp.com/nightlife)
+ - [Manage a Book Trading Club](https://blooming-mountain-66425.herokuapp.com/book)
+ - [Build a Pinterest Clone](https://blooming-mountain-66425.herokuapp.com/pinterest)
 
 ----------
 
