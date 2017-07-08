@@ -70,7 +70,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:xiangxianzui/xiangxianzui.github.io.git
+  repo: https://github.com/xiangxianzui/xiangxianzui.github.io.git
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
   name: xiangxianzui
