@@ -102,7 +102,8 @@ e.g.: file [directory]
 $ ps -a //display all processes, including other users' processes
 $ ps -u //display processes belonging to current user
 $ ps -x //print complete information
-e.g.: ps aux | grep "google" //print all processes relevant to "google"
+$ ps -ef | grep tomcat //print all processes relevant to tomcat in standard way(more human-readable)
+e.g.: ps -aux | grep "google" //print all processes relevant to "google" in BSD style
 ```
 
  - top: print processes in real time, similar to resources monitor in Windows
@@ -135,12 +136,22 @@ $ netstat -u //display UDP-relevant only
 $ netstat -n //display number rather than name
 $ netstat -l //display items which are in LISTEN status
 $ netstat -p //display program names and PID of the connection
-$ netstat -r //display kernel routing table
+$ netstat
+ -r //display kernel routing table
 $ netstat -i //display kernel interface table
 often used with grep:
 netstat -anp | grep python //view connections relevant to python
 netstat -anp | grep 8080 //view connections relevant to port 8080
 ```
+
+- touch
+
+Update the access and modification times of each FILE to the current time. But it is used to create a new file frequently.
+
+```
+$ touch [OPTION] [FILE] //change file timestamps.  
+```
+
 
 To be continued...
 - - - 
