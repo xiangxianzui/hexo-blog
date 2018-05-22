@@ -1,7 +1,7 @@
 ---
 title: 'Perfect Shell: zsh'
 date: 2017-07-11 21:15:11
-tags: [Linux, zsh, oh-my-zsh]
+tags: [Linux, zsh, oh-my-zsh, tools]
 categories: [Guides]
 ---
 

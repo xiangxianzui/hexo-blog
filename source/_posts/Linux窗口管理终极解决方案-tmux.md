@@ -1,7 +1,7 @@
 ---
 title: 'Linux窗口管理终极解决方案:tmux'
 date: 2017-07-25 22:27:13
-tags: [Linux, tmux, 窗口管理]
+tags: [Linux, tmux, 窗口管理, tools]
 categories: [Guides]
 ---
 

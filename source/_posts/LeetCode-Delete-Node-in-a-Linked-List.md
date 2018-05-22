@@ -1,7 +1,7 @@
 ---
 title: 'LeetCode: Delete Node in a Linked List'
 date: 2017-01-12 11:27:07
-tags: [algorithm, Linked List]
+tags: [Linked List]
 categories: [LeetCode]
 ---
 

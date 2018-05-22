@@ -1,7 +1,7 @@
 ---
 title: 'LeetCode: Binary Watch'
 date: 2017-01-12 13:43:05
-tags: [algorithm, Backtracking]
+tags: [Backtracking]
 categories: [LeetCode]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'LeetCode: Move Zeroes'
 date: 2017-01-12 10:14:39
-tags: [algorithm, Array]
+tags: [Array]
 categories: [LeetCode]
 ---
 

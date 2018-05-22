@@ -1,7 +1,7 @@
 ---
 title: 'LeetCode: Coin Change'
 date: 2017-02-05 11:58:29
-tags: [algorithm, Dynamic Programming]
+tags: [Dynamic Programming]
 categories: [LeetCode]
 ---
 

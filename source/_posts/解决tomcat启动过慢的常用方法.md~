@@ -1,0 +1,17 @@
+---
+title: 解决tomcat启动过慢的常用方法
+date: 2017-11-28 23:18:40
+tags: [tomcat]
+categories: [Work]
+---
+
+### 解决tomcat启动过慢
+http://blog.csdn.net/benyuxy/article/details/7570244
+http://blog.csdn.net/u011627980/article/details/54024974
+http://blog.csdn.net/changyinling520/article/details/71036515
+
+另：
+### tomcat下部署war包的两种方法
+http://blog.csdn.net/wy818/article/details/7240294
+
+

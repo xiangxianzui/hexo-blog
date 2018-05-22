@@ -1,7 +1,7 @@
 ---
 title: 'LeetCode: Sum of Two Integers'
 date: 2017-01-09 22:00:24
-tags: [algorithm, Bit Manipulation]
+tags: [Bit Manipulation]
 categories: [LeetCode]
 ---
 
