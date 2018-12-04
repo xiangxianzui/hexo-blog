@@ -2,7 +2,7 @@
 title: nginx学习笔记
 date: 2017-10-21 14:07:35
 tags: [nginx, Keepalived, 高可用]
-categories: [学习笔记]
+categories: [Learning]
 ---
 
 ## Nginx + Keepalived实现高可用

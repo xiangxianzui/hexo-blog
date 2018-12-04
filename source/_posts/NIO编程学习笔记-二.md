@@ -2,7 +2,7 @@
 title: NIO编程学习笔记(二)
 date: 2017-10-24 16:46:42
 tags: [NIO, 网络编程]
-categories: [学习笔记]
+categories: [Learning]
 ---
 
 ## Java NIO Channel

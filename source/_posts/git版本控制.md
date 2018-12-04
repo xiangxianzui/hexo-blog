@@ -2,7 +2,7 @@
 title: git版本控制
 date: 2018-05-22 16:58:18
 tags: [git]
-categories: [学习笔记]
+categories: [Learning]
 ---
 
 ### 基本概念

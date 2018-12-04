@@ -2,7 +2,7 @@
 title: Maven核心概念
 date: 2018-02-08 21:24:03
 tags: [Maven]
-categories: [学习笔记]
+categories: [Learning]
 ---
 
 ### Maven是什么

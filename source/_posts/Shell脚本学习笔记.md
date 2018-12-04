@@ -2,7 +2,7 @@
 title: Shell脚本学习笔记
 date: 2017-10-20 19:19:28
 tags: [Shell, Linux]
-categories: [学习笔记]
+categories: [Learning]
 ---
 
 此篇为Shell脚本的学习笔记，方便用到的时候查阅。
@@ -57,12 +57,12 @@ echo "TODAY IS $DATE"
 
 ### test条件控制语句
 - test -d file	指定文件是否是目录
-- test -f file	指定文件是否是常规文件
-- test -x file	文件是否可执行
-- test -r file	文件是否可读
-- test -w file	文件是否可写
-- test -a file	文件是否存在
-- test -s file	文件大小是否非0
+	 test -f file	指定文件是否是常规文件
+	 test -x file	文件是否可执行
+	 test -r file	文件是否可读
+	 test -w file	文件是否可写
+	 test -a file	文件是否存在
+	 test -s file	文件大小是否非0
 
 test条件控制语句可以简写为[]的形式
 比如：<code>if test -d file.txt</code>等价于<code>if [ -d file.txt ]</code>

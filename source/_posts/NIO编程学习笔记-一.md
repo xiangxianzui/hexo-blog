@@ -2,7 +2,7 @@
 title: NIO编程学习笔记(一)
 date: 2017-10-24 16:16:23
 tags: [NIO, 网络编程]
-categories: [学习笔记]
+categories: [Learning]
 ---
 
 ## 基本概念
