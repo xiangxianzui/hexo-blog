@@ -5,7 +5,7 @@ tags: [HttpDNS]
 categories: [Work]
 ---
 
-> 转载自：http://www.ttlsa.com/web/httpdns-detailed-service/
+> 转载自：https://cloud.tencent.com/developer/article/1035562
 
 
 
