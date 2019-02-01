@@ -1,8 +1,8 @@
 ---
 title: Build blogs with Hexo!
 date: 2017-01-05 10:29:32
-tags: [Hexo]
-categories: [Guides]
+tags: [Blog]
+categories: [Hexo]
 ---
 Welcome to my blog! In this my very first post, I will record my experience of building this blog with the help of [Github Pages](https://pages.github.com/) and the amazing [Hexo](https://hexo.io/)! This not only keeps a record of what I did, but also may help those who want to build a personal blog site. Ok, let's get down to the business. 
 

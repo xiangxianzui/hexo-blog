@@ -2,7 +2,7 @@
 title: Linux查找文件
 date: 2017-10-19 15:42:24
 tags: [Linux]
-categories: [Work]
+categories: [Learning]
 ---
 
 Linux下查找文件通常可以用which，whereis，locate和find命令，下面总结它们各自的用法和区别。
@@ -32,7 +32,6 @@ ls -lc filename         列出文件的 ctime
 ls -lu filename         列出文件的 atime
 ls -l filename          列出文件的 mtime 
 atime不一定在访问文件之后被修改，因为：使用ext3文件系统的时候，如果在mount的时候使用了noatime参数那么就不会更新atime的信息。而这是加了 noatime 取消了, 不代表真实情況。反正, 這三個 time stamp 都放在 inode 中。若 mtime, atime 修改inode 就一定會改, 既然 inode 改了, 那 ctime 也就跟着要改了。
-
 
 ---
 > Written with [StackEdit](https://stackedit.io/).

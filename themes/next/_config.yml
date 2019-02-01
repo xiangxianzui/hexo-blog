@@ -88,7 +88,7 @@ menu:
   Notes: /notes/ || pencil
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -116,11 +116,11 @@ scheme: Muse
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/xiangxianzui || github
-  E-Mail: mailto:xiangxianzui@gmail.com || envelope
-  SDK.CN: https://sdk.cn/users/ckowkj/collections?tab=article || 
-  云音乐: https://music.163.com/#/user/home?id=61000548 || music
-  简书: http://www.jianshu.com || heartbeat
+  #GitHub: https://github.com/xiangxianzui || github
+  #E-Mail: mailto:xiangxianzui@gmail.com || envelope
+  #SDK.CN: https://sdk.cn/users/ckowkj/collections?tab=article || 
+  #云音乐: https://music.163.com/#/user/home?id=61000548 || music
+  #简书: http://www.jianshu.com || heartbeat
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook

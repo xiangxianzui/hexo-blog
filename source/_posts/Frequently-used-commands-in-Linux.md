@@ -2,7 +2,7 @@
 title: Frequently-used commands in Linux
 date: 2017-05-19 13:39:38
 tags: [Linux]
-categories: [Interview]
+categories: [Learning]
 ---
 
 This post concludes frequently-used commands in Linux, which might be functioning like a handy manual page for Linux commands.
@@ -56,7 +56,7 @@ $ grep [options] [PATTERN] [filename] //print contents which satisfy regular exp
 ```
 [options] includes: -n (display line number); -i (ignore character case); -v (display contents which don't satisfy regular expression)
 ```
- 
+
  - find
 
 ```
@@ -79,15 +79,15 @@ $ chmod 777 [file] //grant u(user),g(group),o(other) with reading(1), writing(2)
 $ tar -czvf some.tar.gz file1 file2 file3 //compress file1, file2 and file3 using gzip
 $ tar -xzvf some.tar.gz //uncompress some.tar.gz to current directory
 ```
- 
+
  - pwd: print current working directory
 
  - diff
- 
+
 ```
 $ diff [file1] [file2] //compare two files and print differences
 ```
- 
+
  - file: print the type of the file
 
 ```
@@ -116,7 +116,7 @@ $ kill -9 [PID] //force to kill process [PID]
 $ kill -15 [PID] //kill process [PID] in a moderate way, which means reclaim resources of the process and then kill it
 $ kill [PID] //same with kill -15 [PID]
 ```
- 
+
  - more/less
 
 In general, both more and less print contents of a file to the screen. But they offer different functions. This [article](http://www.cnblogs.com/aijianshi/p/5750911.html) is a good resource to understand them.
@@ -154,5 +154,5 @@ $ touch [OPTION] [FILE] //change file timestamps.
 
 
 To be continued...
-- - - 
+- - -
 > Written with [StackEdit](https://stackedit.io/).

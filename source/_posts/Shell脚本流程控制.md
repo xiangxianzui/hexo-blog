@@ -2,7 +2,7 @@
 title: Shell脚本流程控制
 date: 2017-10-19 18:52:50
 tags: [Linux, Shell]
-categories: [Work]
+categories: [Learning]
 ---
 
 

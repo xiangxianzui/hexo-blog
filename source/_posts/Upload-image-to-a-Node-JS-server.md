@@ -2,7 +2,7 @@
 title: Upload image to a Node.JS server
 date: 2017-01-16 19:10:26
 tags: [Node.JS]
-categories: [Guides]
+categories: [Learning]
 ---
 
 Recently, I came up with a problem that I need to upload images to a Node server and display the image instantly. I write this post to keep a record of what I have done.

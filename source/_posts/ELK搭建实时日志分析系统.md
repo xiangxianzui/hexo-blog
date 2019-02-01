@@ -2,7 +2,7 @@
 title: ELK搭建实时日志分析系统
 date: 2017-07-25 20:35:04
 tags: [ElasticSearch, Logstash, Kibana]
-categories: [Guides]
+categories: [Work]
 ---
 
 日志主要包括系统日志、应用程序日志和安全日志。系统运维和开发人员可以通过日志了解服务器软硬件信息、检查配置过程中的错误及错误发生的原因。经常分析日志可以了解服务器的负荷，性能安全性，从而及时采取措施纠正错误。

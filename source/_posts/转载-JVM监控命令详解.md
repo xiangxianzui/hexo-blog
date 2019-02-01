@@ -1,8 +1,8 @@
 ---
 title: (转载)JVM监控命令详解
 date: 2017-07-17 21:58:07
-tags: [JVM, 转载]
-categories: [Interview]
+tags: [JVM]
+categories: [Learning]
 ---
 
 http://learnworld.iteye.com/blog/1381949

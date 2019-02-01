@@ -2,7 +2,7 @@
 title: Wechat development with NodeJS
 date: 2017-02-09 23:30:48
 tags: [Node.JS, wechat, BAE]
-categories: [Guides]
+categories: [Learning]
 ---
 
 I enjoyed the time with my family quite a lot during Chinese New Year. We made dumplings,  set off fireworks, watched Spring Festival Gala, and so on. However, happy time always runs fast. It's time to finish the holiday and get back to work : )

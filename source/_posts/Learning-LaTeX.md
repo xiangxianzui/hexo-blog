@@ -2,7 +2,7 @@
 title: Learning LaTeX
 date: 2017-01-31 11:27:26
 tags: [LaTex]
-categories: [Guides]
+categories: [Learning]
 ---
 
 ## Getting Started

@@ -1,8 +1,8 @@
 ---
 title: Customize hexo blogs
 date: 2017-01-05 11:37:09
-tags: [Hexo]
-categories: [Guides]
+tags: [Blog]
+categories: [Hexo]
 ---
 
 In my previous [post](https://xiangxianzui.github.io/2017/01/Build-blogs-with-Hexo/), I introduced how to build personal blog site with the help of [Hexo](https://hexo.io) and [Github Pages](https://pages.github.com/). Now it's time to customize the hexo blog to show some personalities.
