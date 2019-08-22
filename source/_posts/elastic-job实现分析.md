@@ -1,7 +1,7 @@
 ---
 title: elastic-job实现分析
 date: 2018-12-04 22:29:03
-tags: [分布式, 作业调度]
+tags: [分布式, 作业调度, elastic-job]
 categories: [Work]
 ---
 
