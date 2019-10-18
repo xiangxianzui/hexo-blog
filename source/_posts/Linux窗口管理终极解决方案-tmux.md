@@ -7,7 +7,7 @@ categories: [Tool]
 
 ## Linux窗口管理终极解决方案:tmux
 
-tmux是terminal multiplexing的简称，也就是终端复用，一旦熟悉了tmux后，它就像一个加速器一样加速我们的工作效率。
+tmux是terminal multiplexer的简称，也就是终端复用，一旦熟悉了tmux后，它就像一个加速器一样加速我们的工作效率。
 
 ### 基本概念
 
@@ -49,14 +49,15 @@ tmux的基本概念很简单，包含三种组成要素：
 | PREFIX 方向键            | 光标跳转到指定面板                                      |
 | 按住PREFIX的同时按方向键 | 调整当前面板的大小                                      |
 | PREFIX 空格键            | 切换面板布局                                            |
+| PREFIX z                 | 最大化当前面板，再按一次还原                            |
 | PREFIX !                 | 将当前面板从所属窗口分离出去，成为一个新的窗口          |
 | PREFIX ?                 | 打印快捷键help                                          |
 
-为什么要有PREFIX？
+为什么要有PREFIX
 
 由于我们的程序是在tmux环境里运行的，因此需要一种方式来告诉tmux当前所输入的命令是为了让tmux去执行而不是tmux里的应用程序去执行。
 
-默认PREFIX是`Ctrl b`
+默认PREFIX是`Ctrl b`，觉得别扭的话可以在配置文件里自定义。
 
 #### 复制到剪贴板
 
@@ -73,6 +74,9 @@ tmux的基本概念很简单，包含三种组成要素：
 ```
 # 按PREFIX R重新加载配置文件
 bind R source-file ~/.tmux.conf \; display-message "Config reloaded.."
+
+# 按PREFIX S在不同面板同步操作，再按一次取消同步
+bind S setw synchronize-panes
 
 # 状态栏
 # 颜色

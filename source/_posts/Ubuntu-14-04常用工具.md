@@ -19,7 +19,7 @@ Todo list：Nitro、Go for it!
 
 Git GUI：Gitkraken
 
-云笔记：Wiznote（试用期后收费）
+云笔记：Wiznote（试用期后收费），Simplenote（免费）
 
 远程连接：PAC
 
