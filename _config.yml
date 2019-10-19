@@ -99,3 +99,11 @@ algolia:
   adminApiKey: '128d0067770737a4ab69ff822ce5d6a2'
   indexName: 'hexo_blog'
   chunkSize: 5000
+
+# local search
+search:
+  path: search.json
+  field: post
+  format: html
+  limit: 5000
+  content: true
