@@ -5,5 +5,18 @@ tags: [https]
 categories: [Work]
 ---
 
-最近发现我们线上服务器向用户服务器发送https请求被拒绝的现象，原因是用户服务器设置的https协议是只支持TLSv1.2的请求，而我们服务器发送https请求使用的是TLSv1，用户服务器拒绝握手。
+最近发现我们线上服务器向用户服务器发送https请求被拒绝的现象，原因是用户服务器设置的https协议是只支持TLSv1.2的请求，而我们使用JDK7的服务器发送https请求时默认使用的是TLSv1，用户服务器拒绝握手，出现connection reset错误，在不升级到JDK8的前提下需要支持发送TLSv1.2的https请求。
 
+使用apache的httpClient代码如下：
+
+```java
+CloseableHttpClient httpClient = HttpClientBuilder
+                .create()
+                .setSSLSocketFactory(new SSLConnectionSocketFactory((SSLSocketFactory)SSLSocketFactory.getDefault(),
+                        new String[] {"TLSv1", "TLSv1.1", "TLSv1.2"},
+                        null,
+                        SSLConnectionSocketFactory.getDefaultHostnameVerifier()))
+                .build();
+```
+
+详细原因见SSLSocketFactory类，在JDK7和JDK8中有不同的实现。
